@@ -13,7 +13,7 @@ function SignInPage() {
             <h1 className="text-2xl font-semibold">Sign in to your account</h1>
           </SignInStep>
           <div className="mt-4 grid gap-y-2 p-2">
-            <ClerkConnection name="google">Sign in with Google</ClerkConnection>
+            <ClerkConnection className="text-red-500" name="google">Sign in with Google</ClerkConnection>
             <ClerkConnection name="apple">Sign in with Apple</ClerkConnection>
           </div>
         </SignInRoot>
