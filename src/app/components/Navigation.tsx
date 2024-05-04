@@ -13,7 +13,7 @@ function Navigation() {
   return (
     <nav className="flex items-center justify-between py-4">
       <Link href="/">
-        <h1 className="text-2xl font-semibold">Clerk Elements Demo</h1>
+        <h1 className="text-2xl font-semibold">Clerk Elements 💓 TWC Demo</h1>
       </Link>
       <div className="flex items-center gap-x-4">
         <Link href="/">

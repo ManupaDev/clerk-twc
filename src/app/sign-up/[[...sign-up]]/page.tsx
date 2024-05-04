@@ -10,7 +10,7 @@ function SignUpPage() {
             <h1 className="text-2xl font-semibold">Create your account</h1>
           </SignUpStep>
           <div className="mt-4 grid gap-y-2 p-2">
-            <ClerkConnection name="google">Sign up with Google</ClerkConnection>
+            <ClerkConnection className="text-red-500" name="google">Sign up with Google</ClerkConnection>
             <ClerkConnection name="apple">Sign up with Apple</ClerkConnection>
           </div>
         </SignUpRoot>
