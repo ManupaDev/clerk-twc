@@ -24,7 +24,7 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en">
-        <body className={`font-sans ${inter.variable} px-64`}>
+        <body className={`font-sans ${inter.variable} px-4 lg:px-64`}>
           <Navigation />
           {children}
         </body>
